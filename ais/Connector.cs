@@ -21,6 +21,6 @@ namespace ais
             }
         }
 
-        MySqlConnection GetConnection() => connection;
+        public MySqlConnection GetConnection() => connection;
     }
 }
